@@ -13,7 +13,7 @@ const Modal = ({ onClose }) => {
         <Link className="modal-links" to="/about" onClick={onClose}>
           About
         </Link>
-        <Link className="modal-links" to="/projcets" onClick={onClose}>
+        <Link className="modal-links" to="/projects" onClick={onClose}>
           Projects
         </Link>
         <Link className="modal-links" to="/contact" onClick={onClose}>
