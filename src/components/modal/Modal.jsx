@@ -7,16 +7,16 @@ const Modal = ({ onClose }) => {
   return (
     <div className="modal">
       <div className="modal-content">
-        <Link className="modal-links" to="/">
+        <Link className="modal-links" to="/" onClick={onClose}>
           Home
         </Link>
-        <Link className="modal-links" to="/about">
+        <Link className="modal-links" to="/about" onClick={onClose}>
           About
         </Link>
-        <Link className="modal-links" to="/projcets">
+        <Link className="modal-links" to="/projcets" onClick={onClose}>
           Projects
         </Link>
-        <Link className="modal-links" to="/contact">
+        <Link className="modal-links" to="/contact" onClick={onClose}>
           Contact
         </Link>
         <div>
