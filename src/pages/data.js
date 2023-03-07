@@ -26,7 +26,7 @@ const data = [{
   image: weather,
   description: "'Easy to use App to get detailed info for a week at any location. Just type in the address you're interested in and find out what the weather holds for you tomorrow.",
   stack: 'HTML 5, CSS 3, Javascript',
-  live: 'thedailyweather.netlify.app',
+  live: 'https://thedailyweather.netlify.app',
   github: 'https://github.com/rohit968/weather-app'
 
 },
