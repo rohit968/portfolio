@@ -1,0 +1,80 @@
+:root {
+  --primary-font: "IBM Plex Serif", serif;
+  --secondary-font: "Poppins", sans-serif;
+  --bg-color: #252525;
+  --text-color: rgb(204, 204, 204);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--secondary-font);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+h1 {
+  font-family: var(--primary-font);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  font-size: 0.8rem;
+  transition: all 100s ease-in-out;
+}
+
+.link:hover {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.btn-arrow {
+  margin-left: 0.5em;
+  margin-bottom: -0.3em;
+  animation: shake-left 7s ease 0s infinite normal none;
+}
+
+@keyframes shake-left {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-4px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+.section-heading {
+  border-bottom: 1px solid whitesmoke;
+  border-width: 1px;
+  font-weight: 300;
+  font-size: 1.75rem;
+  width: 137px;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  margin: 0 auto;
+}

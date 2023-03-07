@@ -1,0 +1,42 @@
+.contact-container {
+  height: 100vh;
+  display: flex;
+  gap: 2em;
+  margin: 0 auto;
+}
+
+.contact-maps {
+  width: 100%;
+  height: 60%;
+  margin: auto 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact-container {
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .contact-maps {
+    height: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    display: flex;
+    height: 130vh;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    gap: 0;
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .contact-maps {
+    height: 300px;
+  }
+}

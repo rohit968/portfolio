@@ -1,0 +1,93 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90%;
+  margin: auto 0;
+  align-items: center;
+  padding: 0 2em;
+  text-align: center;
+}
+
+.contact-heading {
+  border-bottom: 1px solid whitesmoke;
+  font-size: 1.7rem;
+  margin-bottom: -1.5em;
+  font-family: var(--primary-font);
+}
+
+.contact-description {
+  font-family: var(--secondary-font);
+  margin-bottom: -1.5em;
+  font-size: 0.9rem;
+}
+
+.contact-form {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  padding: 0.8em 0;
+  background-color: #252525;
+  color: whitesmoke;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  margin: 0 auto;
+  padding: 1em 2.5em;
+  margin-top: 10px;
+  background-color: #474747;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: whitesmoke;
+  color: #474747;
+}
+
+.errors {
+  color: red;
+  font-size: 0.65rem;
+  margin-top: -0.5em;
+}
+
+span {
+  color: red;
+  margin-left: 0.1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-heading {
+    margin-bottom: 0.05em;
+  }
+  .contact-description {
+    margin-bottom: 0.5em;
+    font-size: 0.8rem;
+  }
+}

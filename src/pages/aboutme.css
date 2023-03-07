@@ -1,0 +1,185 @@
+.heading {
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+#about-me {
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.about-main {
+  display: flex;
+  margin-bottom: 4em;
+}
+
+.about-text {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: var(--secondary-font);
+}
+
+.about-image {
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+}
+
+.about-name-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-button {
+  padding: 0.7em 2.2em;
+  margin-left: 0 !important;
+  background-color: #4d4d4d;
+  cursor: pointer;
+}
+
+.skill-section {
+  background-color: #4d4d4d;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.skills-content {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.skill-description {
+  font-family: var(--secondary-font);
+  margin-top: 1em;
+  font-weight: 100;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.skill-icons {
+  padding: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skill {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.skill p {
+  font-size: 1rem;
+  margin-top: -0.7em;
+}
+
+.icon {
+  background-color: #393939;
+  padding: 0.1em;
+  border-radius: 10px;
+}
+
+.experience-section {
+  margin-top: 3em;
+}
+
+.experiences {
+  position: relative;
+  padding: 0 2.5em;
+  margin: 1em 0;
+}
+
+.experience-heading {
+  font-size: 1.2rem;
+  position: relative;
+  text-decoration: underline;
+}
+
+.experience-content {
+  font-size: 0.85rem;
+  margin: 3px 0;
+}
+
+.experience-content ul li::before {
+  content: "-";
+  margin: 0 10px;
+}
+
+.experience-content ul {
+  list-style-type: none;
+}
+
+.experience-heading::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -48px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 3px solid whitesmoke;
+  background: var(--bg-color);
+}
+
+.experience-content::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 90%;
+  background: whitesmoke;
+  top: 25px;
+  left: 0;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .about-image {
+    width: 100%;
+  }
+
+  .about-main {
+    height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-text {
+    font-size: 0.8rem;
+  }
+
+  .heading {
+    margin-bottom: 1em;
+  }
+
+  .about-main {
+    margin-top: -2.5em;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .about-button {
+    margin-top: 1em !important;
+  }
+
+  .skill-icons {
+    gap: 20px;
+  }
+
+  .experiences {
+    line-height: 1.4;
+  }
+}

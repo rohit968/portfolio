@@ -1,0 +1,30 @@
+#projects {
+  padding: 2em 3em;
+}
+
+.project-desc {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.card-container {
+  margin-top: 3em;
+  padding: 2em 1em;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  #projects {
+    padding: 1em 0;
+  }
+  .card-container {
+    flex-direction: column;
+    padding: 1em 0;
+    width: 100%;
+    gap: 20px;
+  }
+}

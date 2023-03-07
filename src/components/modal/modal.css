@@ -1,0 +1,33 @@
+.modal {
+  position: fixed;
+  top: 5em;
+  width: 80%;
+  height: 100%;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-links {
+  color: #252525;
+  margin: 1em;
+}
+
+.modal-close {
+  color: #252525;
+  font-size: 2rem;
+}
+
+.modal-links:hover {
+  background-color: #252525;
+  color: whitesmoke;
+}
