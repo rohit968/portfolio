@@ -1,11 +1,19 @@
-import React from 'react'
 import portfolio from '../assets/portfolio-image.png'
 import weather from '../assets/weather.png'
 import todo from '../assets/todo.png'
 import gesturewar from '../assets/gesturewar.png'
 import tipcalculator from '../assets/tipcalculator.png'
+import moviepedia from '../assets/moviepedia.jpg'
 
 const data = [{
+  title: 'MoviePedia',
+  image: moviepedia,
+  description: 'Discover the magic of cinema with our extensive collection of movies from every genre, era, and corner of the world.',
+  stack: 'MERN, Sass, HTML 5, CSS 3, Javascript',
+  live: 'https://moviepedia-31.netlify.app/',
+  github: 'https://github.com/rohit968/movie-pedia'
+},
+{
   title: 'Portfolio',
   image: portfolio,
   description: 'Discover my skills and experience as a web developer through my portfolio, showcasing my best projects and accomplishments',
