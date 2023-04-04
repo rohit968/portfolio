@@ -4,8 +4,17 @@ import todo from '../assets/todo.png'
 import gesturewar from '../assets/gesturewar.png'
 import tipcalculator from '../assets/tipcalculator.png'
 import moviepedia from '../assets/moviepedia.jpg'
+import roommatez from '../assets/Roommatez.jpg'
 
 const data = [{
+  title: 'Roommatez',
+  image: roommatez,
+  description: 'Discover unique stays and experiences with Roommatez.',
+  stack: 'MERN, Sass, HTML 5, CSS 3, Javascript',
+  live: 'https://roommatez.netlify.app/',
+  github: 'https://github.com/rohit968/roommatez'
+},
+{
   title: 'MoviePedia',
   image: moviepedia,
   description: 'Discover the magic of cinema with our extensive collection of movies from every genre, era, and corner of the world.',
