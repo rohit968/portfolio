@@ -5,8 +5,17 @@ import gesturewar from '../assets/gesturewar.png'
 import tipcalculator from '../assets/tipcalculator.png'
 import moviepedia from '../assets/moviepedia.jpg'
 import roommatez from '../assets/Roommatez.jpg'
+import conversify from '../assets/conversify.jpg'
 
 const data = [{
+  title: 'Conversify',
+  image: conversify,
+  description: 'Stay connected and chat in real-time with friends and family with Conversify',
+  stack: 'MERN, Web Socket, Tailwind Css, HTML 5, Javascript',
+  live: 'https://conversify.netlify.app/',
+  github: 'https://github.com/rohit968/roommatez'
+},
+{
   title: 'Roommatez',
   image: roommatez,
   description: 'Discover unique stays and experiences with Roommatez.',
